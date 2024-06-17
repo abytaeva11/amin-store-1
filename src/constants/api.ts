@@ -1,0 +1,1 @@
+export const API = process.env.API_TEST || "https://alisher191.pythonanywhere.com"

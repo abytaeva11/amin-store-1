@@ -1,0 +1,105 @@
+.user-reviews {
+  width: 1040px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: rgba(21, 26, 34, 1);
+
+  .user-reviews-inside {
+    width: 950px;
+    height: 577px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      font-family: Calibri;
+      font-size: 40px;
+      font-weight: 400;
+      letter-spacing: 0em;
+      color: #FFFFFF;
+    }
+
+    h3 {
+      font-family: Calibri;
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: rgba(134, 136, 137, 1);
+      padding: 30px 0;
+    }
+    input{
+      width: 356px;
+      height: 65px;
+      border-radius: 2px;
+      border: 2px solid gray;
+      margin: 10px 0;
+      padding: 10px ;
+      color: #5A5A5A;
+    }
+
+    textarea {
+      width: 950px;
+      height: 177px;
+      border-radius: 2px;
+      font-family: Calibri;
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: #5A5A5A;
+      padding: 20px;
+
+    }
+
+    .user-reviews-btn {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      width: 100%;
+
+      button {
+
+        margin-top: 20px;
+        width: 173px;
+        height: 47px;
+        background: rgba(73, 220, 255, 1);
+        border-radius: 2px;
+        color: #FFFFFF;
+        text-align: center;
+      }
+    }
+    .star-rating {
+      display: flex;
+      margin-bottom: 10px;
+
+      .star {
+        font-size: 2rem;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        transition: color 0.3s ease;
+        padding: 10px 0;
+        &.lit {
+          padding: 10px 0;
+          color: rgba(73, 220, 255, 1)
+        }
+      }
+    }
+
+    .user-reviews-btn {
+      button {
+        background-color:rgba(73, 220, 255, 1);
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+
+
+  }
+}

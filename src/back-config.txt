@@ -1,0 +1,93 @@
+
+auth {
+	id int
+	authenticationToken text
+	refreshToken text
+	expiresAt date
+}
+
+feedback {
+	id int unique
+	title text
+	stars int
+	active boolean
+	description text
+	img blob null
+	productId int null > product.id
+}
+
+order {
+	id int unique
+	city text
+	street text null
+	houseOrComplex text null
+	homeNumber: int
+	email text null
+	phoneNumber text
+	fullName text
+	willBeDeliveredAt datetime null
+	productId int > product.id
+	importance int
+	active boolean
+}
+
+delivery {
+	orderId int > order.id
+	status text null
+	active boolean
+}
+
+product {
+	id int
+	title text
+	sub_title text
+	description text null
+	price text null
+	brand text null
+	model text null
+	category text
+	year int
+	img blob null
+	parentId int null
+	children int null > product.id
+	powerScale: int
+	importance: int
+	sale text null
+	active boolean
+}
+
+declare {
+	id int
+	title text
+	description text null
+	price text null
+	brand text null
+	model text null
+	year int
+	category text
+	img blob null
+	powerScale int
+	importance int
+	is_game boolean
+	active boolean
+	sale int null
+	cpu int > product.id
+	cooler int > product.id
+	motherboard int > product.id
+	ram int > product.id
+	videoCard int > product.id
+	hdd int > product.id
+	disk1 int > product.id
+	disk2 int > product.id
+	dvd int > product.id
+	body text
+	powerUnit text
+	wifi text
+	soundCard int > product.id
+	operatingSystem text
+	mouse int > product.id
+	keyboard int > product.id
+	monitor int > product.id
+	headset int > product.id
+}
+

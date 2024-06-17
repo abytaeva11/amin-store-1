@@ -1,0 +1,15 @@
+.mantine-Pagination-control{
+    color: white !important;
+    &:hover{
+        background: green;
+    }
+    &[data-active=true]{
+        background-color: green;
+    }
+}
+.mantine-Select-input{
+    background: green;
+    border: 1px solid white;
+    color: white;
+    border-radius: 0px;
+}

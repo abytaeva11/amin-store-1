@@ -1,0 +1,144 @@
+#contact{
+  height: 341px;
+  position: relative;
+}
+#contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1520px;
+  height: 341px;
+  background: rgba(18, 13, 13, 0.78);
+  z-index: 1;
+}
+.contact{
+  display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 150px;
+}
+.contact h1 {
+  color: #FFFFFF;
+  position: absolute;
+  z-index: 2;
+  font-family: "Calibri",sans-serif;
+font-size: 64px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+}
+.contactinfo{
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  margin-left: 20px;
+ 
+}
+#contactinfo{
+  padding: 0 0 100px 0 ;
+  background: #242424;
+}
+.days{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.call h1{
+font-family: "Calibri",sans-serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+margin: 40px 0 ;
+}
+.call h4{
+  font-family: "Calibri",sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+margin: 40px 0 20px 0  ;
+}
+.call p{
+  font-family: "Calibri",sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #49DCFF;
+
+}
+.days-p{
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0 0 20px 0 ;
+
+}
+.days-p p{
+  font-family: "Calibri",sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: right;
+color: #49DCFF;
+}
+.call h6{
+font-family: "Calibri",sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+margin: 20px 0 20px 0;
+}
+.call a{
+  font-family: "Calibri",sans-serif;
+font-size: 32px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+color: #49DCFF;
+}
+.map h1{
+  font-family: "Calibri",sans-serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+margin: 40px 0 ;
+}
+.map h4{
+  font-family: "Calibri",sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+margin: 20px 0 20px 0 ;
+}
+.map p{
+  font-family: "Calibri",sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #8490A4;
+
+}
+

@@ -1,0 +1,21 @@
+export {
+    ProductDetails,
+    ProductFilter,
+    ProductForm,
+    ProductTable,
+    FeedbackDetails,
+    FeedbackFilter,
+    FeedbackTable,
+    DeliveryDetails,
+    DeliveryFilter,
+    DeliveryForm,
+    DeliveryTable,
+    OrdersDetails,
+    OrdersFilter,
+    OrdersForm,
+    OrdersTable,
+    ComputerDetails,
+    ComputerFilter,
+    ComputerForm,
+    ComputerTable
+} from './admin'

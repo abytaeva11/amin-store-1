@@ -1,0 +1,1 @@
+export { FooterTabsModule } from './footer-tabs'

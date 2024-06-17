@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: rgba(36, 36, 36, 1);
+    margin: 0;
+    padding: 0;
+    //scrollbar-width: thin;
+    //overflow-x: hidden !important;
+    //&::-webkit-scrollbar {
+    //    display: none;
+    //}
+}
+//*::-webkit-scrollbar {
+//    display: none;
+//}
+a {
+    text-decoration: none;
+    transition: 300ms;
+}

@@ -1,0 +1,361 @@
+.user-powerful {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  .power {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 30px 0;
+
+    .power-text {
+      width: 775px;
+      margin: 0 30px;
+
+      h1 {
+        font-family: "Calibri", sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+
+      }
+
+      p {
+        font-family: "Calibri", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(132, 144, 164, 1);
+        margin: 20px 0;
+
+        span {
+          color: rgba(73, 220, 255, 1);
+        }
+      }
+
+      h2 {
+        font-family: Calibri;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(195, 206, 225, 1);
+        width: 454px;
+      }
+
+      h3 {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(195, 206, 225, 1);
+      }
+    }
+
+
+    img {
+      margin: 0 20px;
+    }
+
+    .power-img {
+      width: 550px;
+      height: 450px;
+    }
+
+    .power-img1 {
+      width: 500px;
+      height: 250px;
+    }
+
+    .power-img2 {
+      width: 500px;
+      height: 370px;
+    }
+  }
+  .power2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 30px 0;
+
+    .power-text {
+      width: 775px;
+      margin: 0 30px;
+
+      h1 {
+        font-family: "Calibri", sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+
+      }
+
+      p {
+        font-family: "Calibri", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(132, 144, 164, 1);
+        margin: 20px 0;
+
+        span {
+          color: rgba(73, 220, 255, 1);
+        }
+      }
+
+      h2 {
+        font-family: Calibri;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(195, 206, 225, 1);
+        width: 454px;
+      }
+
+      h3 {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(195, 206, 225, 1);
+      }
+    }
+
+
+    img {
+      margin: 0 20px;
+    }
+
+    .power-img {
+      width: 550px;
+      height: 450px;
+    }
+
+    .power-img1 {
+      width: 500px;
+      height: 250px;
+    }
+
+    .power-img2 {
+      width: 500px;
+      height: 370px;
+    }
+  }
+
+  .active {
+    opacity: 0.5;
+  }
+
+}
+@media (min-width: 1025px) and (max-width: 1240px) {
+
+}
+@media (min-width: 855px) and (max-width: 1024px){
+  .user-powerful{
+    .power{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 90%;
+      .power-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 320px;
+
+      }
+    }
+    .power2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column-reverse;
+      width: 90%;
+      .power-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 320px;
+
+      }
+    }
+
+  }
+
+}
+@media (min-width: 769px) and (max-width: 854px){
+  .user-powerful{
+    width: 100%;
+    .power{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      .power-text{
+        width:90%;
+        h1{
+          font-size: 28px;
+        }
+      }
+      .power-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 290px;
+      }
+    }
+    .power2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column-reverse;
+      width: 100%;
+      .power-text{
+        width:90%;
+        h1{
+          font-size: 28px;
+        }
+      }
+      .power-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 290px;
+
+      }
+    }
+
+  }
+
+}
+@media (min-width: 481px) and (max-width: 768px){
+  .user-powerful{
+    width: 100%;
+    .power{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 90%;
+      .power-text{
+        width: 90%;
+        h1{
+          font-size: 24px;
+        }
+      }
+      .power-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 170px;
+      }
+    }
+    .power2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column-reverse;
+      width: 100%;
+      .power-text{
+        width:90%;
+        h1{
+          font-size: 28px;
+        }
+      }
+      .power-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 170px;
+
+      }
+    }
+
+  }
+
+}
+
+@media (max-width: 480px){
+  .user-powerful{
+    width: 100%;
+    .power{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 90%;
+      .power-text{
+        width: 90%;
+        h1{
+          font-size: 24px;
+        }
+        h2{
+          width: 95%;
+
+        }
+      }
+      .power-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 250px;
+      }
+    }
+    .power2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column-reverse;
+      width: 100%;
+      .power-text{
+        width:90%;
+        h1{
+          font-size: 28px;
+        }
+        h2{
+          width: 95%;
+
+        }
+      }
+      .power-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 170px;
+
+      }
+    }
+
+  }
+
+}

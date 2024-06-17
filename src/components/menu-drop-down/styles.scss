@@ -1,0 +1,6 @@
+.item {
+    transition: 350ms;
+    &:hover {
+        background: var(--weak-white);
+    }
+}

@@ -1,0 +1,1 @@
+export { BuildProductItemModule } from './build-product-item'

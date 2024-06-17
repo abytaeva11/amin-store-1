@@ -1,0 +1,271 @@
+#form{
+  height: 270px;
+  position: relative;
+}
+#form::before {
+  content: "";
+  position: absolute;
+  left: 0;
+   width: 1500px;
+  height: 270px;
+  background: rgba(18, 13, 13, 0.629);
+  z-index: 1;
+}
+.form-icon {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+    
+}
+.form h1{
+  color: white;
+  z-index: 2;
+  position: absolute;
+  font-family: "Calibri",sans-serif;
+font-size: 64px;
+font-weight: 400;
+line-height: 78px;
+letter-spacing: 0em;
+text-align: center;
+margin-left: 400px;
+margin-top: 80px;
+
+}
+.box-block{
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 400px;
+  margin-left: 100px;
+    // background: #0B132B;
+
+}
+.box1 h1{
+  font-family: "Calibri",sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0em;
+color: #FEFFFF;
+
+}
+.input1{
+  margin: 20px 0 30px 0  ;
+}
+.input1 h4 {
+  font-family: "Calibri",sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0em;
+color: #49DCFF;
+margin: 10px 0 ;
+}
+.input1 input {
+  background: #0B132B;
+  border:1px solid white;
+  padding: 5px 20px;
+  width: 400px;
+  font-size: 20px;
+  height: 40px;
+  color: #FFFFFF;
+}
+.radio {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  margin: 10px 0 10px 0  ;
+}
+.radio h5{
+  font-family:" Calibri",sans-serif;
+font-size: 16px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+color: #49DCFF;
+
+}
+.radio input{
+  background: #0B132B;
+  // border: 0.1px solid rgba(255, 255, 255, 0.67);
+}
+.radio1{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  margin: 10px 0 40px 0  ;
+
+}
+.radio-input{
+  color: #444343;
+  // background: #5A5A5A;
+  font-size: 20px;
+}
+.radio1 h6{
+  font-family: "Calibri",sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+color: #7c7a7a;
+}
+.price{
+  display: flex;
+  align-items: center;
+  justify-content: start ;
+  gap: 30px;
+}
+.price h2{
+  font-family:" Calibri",sans-serif;
+font-size: 36px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+color: #49DCFF;
+}
+.price-box h3{
+  font-family: "Calibri";
+font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 1.2000000476837158px;
+text-align: left;
+color: #49DCFF;
+}
+.price-box span{
+  // margin-left: 20px ;
+  color: #0B132B;
+  background: #49DCFF;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.price-box{
+   display: flex;
+  align-items: center;
+  justify-content: start ;
+  gap: 10px;
+}
+.box2 h1{
+  font-family:" Calibri",sans-serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 49px;
+letter-spacing: 0em;
+color: #FEFFFF;
+
+}
+.box2 h4{
+  font-family: "Calibri",sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0em;
+color: #49DCFF;
+margin: 20px 0 ;
+
+}
+.addfoto {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+.addfoto h6{
+  font-family: "Calibri",sans-serif;
+font-size: 16px;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0em;
+color: #A7A5A5;
+text-align: center;
+}
+.addimg{
+  font-size: 24px;
+  // color: #444343;
+  // background: #7c7a7a;
+}
+.area h3{
+  font-family: "Calibri",sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0em;
+color: #49DCFF;
+margin: 40px 0 10px 0;
+}
+.area{
+  
+}
+.area textarea{
+width: 400px;
+height: 150px;
+padding: 10px 10px;
+background: #0B132B;
+color: white;
+border: 1px solid white;
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  margin: 20px 0 ;
+}
+.checkbox input {
+  border: 0.5px solid white;
+  background: #0B132B;
+  font-size: 24px;
+}
+.checkbox h6{
+  font-family: "Calibri",sans-serif;
+font-size: 18px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #7c7a7a;
+
+}
+#box-block{
+  background: #151A22;
+  padding: 20px 0 ;
+}
+.box-btn{
+  margin: 20px 0 ;
+}
+.box-btn button{
+  font-family: "Calibri",sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 57px;
+letter-spacing: 0.47999998927116394px;
+text-align: center;
+color: #0B132B;
+background: #49DCFF;
+padding: 0px 70px ;
+margin-left: 600px;
+
+}
+.box-btn p {
+  font-family: "Calibri",sans-serif;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #a6a3a3;
+margin:20px 0 ;
+}
